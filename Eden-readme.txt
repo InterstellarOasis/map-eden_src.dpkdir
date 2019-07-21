@@ -1,4 +1,4 @@
-Eden Alpha 2
+Eden Alpha 3
 Private testing release
 
 by Georges "TRaK" Grondin
