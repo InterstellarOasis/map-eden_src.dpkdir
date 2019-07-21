@@ -1,4 +1,4 @@
-Eden Beta 1
+Eden Beta 2
 
 by Georges "TRaK" Grondin
 aka drognin, 2xG
