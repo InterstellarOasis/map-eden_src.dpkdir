@@ -1,5 +1,4 @@
-Eden Alpha 3
-Private testing release
+Eden Beta 1
 
 by Georges "TRaK" Grondin
 aka drognin, 2xG
@@ -17,17 +16,23 @@ Soubok
 Ingar
 Timbo
 
+----------------
+SOUNDS
+----------------
+Stickman
+Fishdog
+ERH
+CosmicD
 
-Hopefully I have everyone here. If i missed someone, drop me a line, and they will be added.
+Hopefully I have everyone here. If i missed someone, please drop me a line, and they will be added.
 
 ----------------
 CONCEPT
 ----------------
-This map is situated in a marine cloning facility dedicated to cloning bigger and better marines. The aliens have infested the incubator life-support system, and the humans have to weed them out.
 
-----------------
-OTHER STUFF
-----------------
-Just a note : this map is not finished yet. This is an alpha release meant for testing gameplay and finding bugs.
+Steadily losing ground to the alien invasion, humans decide to make an army of clones that are bigger & better than the current marines. Eden is a small research facility dedicated to perfecting the design. However, aliens infest incubator life-support, and humans have to eliminate them for the survival of the human race.
 
-Enjoy :).
+In making this map, I was playing with a man-plays-god theme, which is why i tried to make a stark contrast between the title and the actual look and feel of the map. Eden is usually associated to sunny forests, but for humans trying to act like gods, their eden is a gloomy underground facility. It is supposed to be an apocalyptic "how far have we fallen" kind of statement, I guess.
+
+
+Enjoy :)

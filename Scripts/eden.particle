@@ -104,39 +104,37 @@ Eden/spark
 	}
 }
 
-// by Ingar
-eden/teleporter
+eden/steamerRad
 {
 	ejector
 	{
 		particle
 		{
-		shader sync textures/eden/particle_white2
-		displacement 0 0 -48 ~48
-		//displacement 0 0 -24 ~48
+		shader sync textures/eden/mist_s
+		displacement 0 0 0 0
 
 		velocityType		static
-		velocityDir		linear
+	
+		velocityDir			linear
+	
+		velocityMagnitude		45
+		velocity			0 1 .7 ~15
 
-		velocityMagnitude	15	
-		velocity		0 0 50 ~1
+		accelerationType		static
+		accelerationDir		linear
+		acceleration		0 0 -1 ~5
+		accelerationMagnitude	25
 
-		accelerationType        static
-                accelerationDir         linear
-                acceleration            0 0 150 ~1
-                accelerationMagnitude   10
 
-                bounce                  0
-                radius                  0 1.5~0.5 1 
-                alpha                   0 0.7~0.2 .2
-                rotation                0 ~360 -
+		radius		0 5 40
+		alpha			250 .5 0
+		rotation		0 ~360 ~360
+		bounce		0.0
 
-                lifetime                4000
+		lifeTime 2000
 		}
-
 	count infinite
 	delay 0
-	period 40 - ~10%
+	period 45 - ~0%
 	}
-	
 }

@@ -295,18 +295,33 @@ textures/eden/spark_02_s
 }
 
 
-// by Ingar
-textures/eden/particle_white2
+
+textures/eden/mist_s
 {
-	qer_editorimage textures/eden/particle_white1.tga
-        //entityMergable
-        cull none
-        {
-                map textures/eden/particle_white1.tga
-		//blendFunc blend
-		depthwrite
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-                //rgbGen          vertex
-                alphaGen        vertex
-        }
+	entityMergable
+	cull none
+	{
+		map textures/eden/mist.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen		vertex
+		alphaGen	vertex
+	}
+}
+
+textures/eden/e6metalfan_s2
+{
+	qer_editorimage textures/eden/e6metalfan.tga
+
+	{
+		map textures/eden/e6metalfan_blade.tga
+		tcmod rotate 5000
+	}
+	{
+		map textures/eden/e6metalfan.tga
+		blendfunc blend
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
 }
