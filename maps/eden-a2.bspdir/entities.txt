@@ -1,0 +1,229 @@
+{
+"_lightmapscale" "0.8"
+"classname" "worldspawn"
+"message" "Eden Corp. Marine Cloning Facility"
+"target" "10"
+"team" "1"
+"angle" "180"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*3"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"origin" "160 852 100"
+"classname" "info_player_intermission"
+"angle" "270"
+}
+{
+"classname" "target_speaker"
+"origin" "-288 592 120"
+"spawnflags" "1"
+"noise" "sound/ambient/water_drip_fast.wav"
+}
+{
+"noise" "sound/ambient/water_drip_fast.wav"
+"spawnflags" "1"
+"origin" "160 592 120"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-776 120 64"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*5"
+}
+{
+"classname" "misc_particle_system"
+"origin" "-152 -1456 164"
+"psname" "eden/spark"
+}
+{
+"psname" "eden/spark"
+"origin" "216 -1680 164"
+"classname" "misc_particle_system"
+}
+{
+"classname" "func_door"
+"team" "1"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"team" "1"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*8"
+}
+{
+"psname" "eden/spark"
+"origin" "-600 -1456 164"
+"classname" "misc_particle_system"
+}
+{
+"classname" "misc_particle_system"
+"origin" "-232 -1680 164"
+"psname" "eden/spark"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*9"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*10"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-1964 896 300"
+}
+{
+"classname" "misc_particle_system"
+"origin" "-1712 -1424 165"
+"psname" "eden/teleporter"
+}
+{
+"psname" "eden/teleporter"
+"origin" "-1712 -1776 168"
+"classname" "misc_particle_system"
+}
+{
+"noise" "sound/ambient/slowpulse1.wav"
+"random" "10"
+"wait" "20"
+"classname" "target_speaker"
+}
+{
+"wait" "20"
+"noise" "sound/ambient/slowpulse1.wav"
+"origin" "-1672 -1624 208"
+"classname" "target_speaker"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1704 -1616 184"
+"noise" "sound/beep.wav"
+"wait" "15"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1736 -1584 200"
+"noise" "sound/drone1.wav"
+"spawnflags" "1"
+}
+{
+"team" "2"
+"classname" "func_door"
+"model" "*11"
+}
+{
+"angle" "180"
+"team" "2"
+"classname" "func_door"
+"model" "*12"
+}
+{
+"angle" "180"
+"origin" "608 -32 -144"
+"classname" "team_alien_overmind"
+}
+{
+"origin" "788 40 -144"
+"classname" "team_alien_spawn"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "788 -120 -144"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-1872 936 312"
+}
+{
+"origin" "-1776 888 300"
+"classname" "team_human_spawn"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-1938 806 320"
+}
+{
+"origin" "-1810 796 320"
+"classname" "team_human_mgturret"
+}
+{
+"classname" "team_human_armoury"
+"origin" "-1582 878 274"
+"angle" "90"
+}
+{
+"classname" "team_human_medistat"
+"origin" "-1586 800 268"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-1554 676 280"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "600 176 48"
+}
+{
+"origin" "640 -248 48"
+"classname" "team_alien_acid_tube"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "792 -40 -136"
+}
+{
+"team" "3"
+"classname" "func_door"
+"model" "*13"
+}
+{
+"angle" "180"
+"team" "3"
+"classname" "func_door"
+"model" "*14"
+}
+{
+"team" "4"
+"classname" "func_door"
+"model" "*15"
+}
+{
+"angle" "180"
+"team" "4"
+"classname" "func_door"
+"model" "*16"
+}

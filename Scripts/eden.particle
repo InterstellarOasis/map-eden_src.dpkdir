@@ -1,0 +1,142 @@
+Eden/spark
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/eden/spark_02
+
+		displacement 0 0 0 ~3
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 300
+
+		}
+		particle
+		{
+		shader sync textures/eden/spark_02
+
+		displacement 0 0 0 ~5
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 600
+
+		}
+		particle
+		{
+		shader sync textures/eden/spark_02
+
+		displacement 0 0 0 ~5
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 400
+
+		}
+		particle
+		{
+		shader sync textures/eden/spark_02
+
+		displacement 0 0 0 ~5
+
+		velocityType 		static
+		velocityDir 		linear
+		velocity 			0 0 -1 ~150
+		velocityMagnitude 	100
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration 		0 0 -1 ~25
+		accelerationMagnitude 	300
+
+		bounce		0
+		radius		0 1 1
+		alpha			0 .5 .0
+		rotation		0 0 ~360
+
+		lifeTime 500
+
+		}
+	count infinite
+	delay 0
+	period 1500 - ~100%
+	}
+}
+
+// by Ingar
+eden/teleporter
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/eden/particle_white2
+		displacement 0 0 -48 ~48
+		//displacement 0 0 -24 ~48
+
+		velocityType		static
+		velocityDir		linear
+
+		velocityMagnitude	15	
+		velocity		0 0 50 ~1
+
+		accelerationType        static
+                accelerationDir         linear
+                acceleration            0 0 150 ~1
+                accelerationMagnitude   10
+
+                bounce                  0
+                radius                  0 1.5~0.5 1 
+                alpha                   0 0.7~0.2 .2
+                rotation                0 ~360 -
+
+                lifetime                4000
+		}
+
+	count infinite
+	delay 0
+	period 40 - ~10%
+	}
+	
+}
