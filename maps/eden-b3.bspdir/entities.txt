@@ -1,0 +1,320 @@
+{
+"_lightmapscale" "0.8"
+"classname" "worldspawn"
+"message" "Eden Corp. Marine Cloning Facility"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*1"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*2"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*4"
+}
+{
+"angle" "270"
+"classname" "info_player_intermission"
+"origin" "160 852 100"
+}
+{
+"noise" "sound/ambient/water_drip_fast.wav"
+"spawnflags" "1"
+"origin" "-288 592 120"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "160 592 120"
+"spawnflags" "1"
+"noise" "sound/ambient/water_drip_fast.wav"
+}
+{
+"noise" "sound/ambient/drone2.wav"
+"origin" "-776 120 64"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*5"
+}
+{
+"psname" "eden/spark"
+"origin" "-152 -1456 164"
+"classname" "misc_particle_system"
+}
+{
+"classname" "misc_particle_system"
+"origin" "216 -1680 164"
+"psname" "eden/spark"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*6"
+}
+{
+"classname" "misc_particle_system"
+"origin" "-600 -1456 164"
+"psname" "eden/spark"
+}
+{
+"psname" "eden/spark"
+"origin" "-232 -1680 164"
+"classname" "misc_particle_system"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"model" "*8"
+}
+{
+"classname" "target_speaker"
+"wait" "20"
+"random" "10"
+"noise" "sound/ambient/slowpulse1.wav"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "608 -32 -144"
+"angle" "180"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "788 40 -144"
+}
+{
+"origin" "788 -120 -144"
+"classname" "team_alien_spawn"
+}
+{
+"origin" "600 176 48"
+"classname" "team_alien_acid_tube"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "640 -248 48"
+}
+{
+"origin" "792 -40 -136"
+"classname" "team_alien_acid_tube"
+}
+{
+"classname" "func_door"
+"team" "3"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"team" "3"
+"angle" "180"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"team" "4"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"team" "4"
+"angle" "180"
+"model" "*12"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-1416 -264 340"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-1404 -92 360"
+}
+{
+"origin" "-1284 -176 360"
+"classname" "team_human_spawn"
+}
+{
+"classname" "team_human_armoury"
+"origin" "-1424 88 340"
+"angle" "90"
+}
+{
+"classname" "team_human_medistat"
+"origin" "-1424 8 332"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-1176 -280 360"
+}
+{
+"origin" "-1232 -92 360"
+"classname" "team_human_mgturret"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-1304 76 360"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-1152 1280 432"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"noise" "sound/ambient/drone2.wav"
+"origin" "-1232 616 688"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-1896 -504 320"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"noise" "sound/ambient/drone2.wav"
+"origin" "-1720 -504 320"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"targetname" "inc"
+"spawnflags" "8"
+"classname" "target_speaker"
+"origin" "-288 592 56"
+"noise" "sound/eden/incubators.wav"
+}
+{
+"target" "inc"
+"classname" "trigger_multiple"
+"model" "*13"
+}
+{
+"classname" "trigger_multiple"
+"target" "inc"
+"model" "*14"
+}
+{
+"noise" "sound/eden/incubators.wav"
+"origin" "160 592 56"
+"classname" "target_speaker"
+"spawnflags" "8"
+"targetname" "inc2"
+}
+{
+"classname" "trigger_multiple"
+"target" "inc2"
+"model" "*15"
+}
+{
+"target" "inc2"
+"classname" "trigger_multiple"
+"model" "*16"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-1312 1280 432"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*17"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*18"
+}
+{
+"noise" "sound/ambient/drone2.wav"
+"origin" "-1056 -2368 528"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-896 -2368 528"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-976 -2520 432"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"noise" "sound/eden/reactors2.wav"
+"origin" "-2408 144 160"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-2408 144 192"
+"noise" "sound/eden/reactors1.wav"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-2408 -240 160"
+"noise" "sound/eden/reactors2.wav"
+}
+{
+"noise" "sound/eden/reactors1.wav"
+"origin" "-2408 -240 192"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"noise" "sound/ambient/drone2.wav"
+"origin" "408 -2400 160"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"origin" "-284 592 204"
+"noise" "sound/eden/lavamud.wav"
+}
+{
+"noise" "sound/eden/lavamud.wav"
+"origin" "164 592 204"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"angle" "0"
+"psname" "eden/steamerrad"
+"origin" "1632 -244 4"
+"classname" "misc_particle_system"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambient/steam.wav"
+"origin" "1632 -220 4"
+"classname" "target_speaker"
+}
