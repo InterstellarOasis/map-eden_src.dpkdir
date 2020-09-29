@@ -7,7 +7,7 @@ models/mapobjects/cn_trees/liveoak
 	nopicmip
 
 	{
-		map models/mapobjects/cn_trees/liveoak.tga
+		map models/mapobjects/cn_trees/liveoak
 		alphaFunc GE128
 		depthWrite
 		rgbGen vertex

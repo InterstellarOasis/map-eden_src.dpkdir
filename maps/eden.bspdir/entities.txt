@@ -29,7 +29,7 @@
 "origin" "160 852 100"
 }
 {
-"noise" "sound/ambient/water_drip_fast.wav"
+"noise" "sound/ambient/water_drip_fast"
 "spawnflags" "1"
 "origin" "-288 592 120"
 "classname" "target_speaker"
@@ -38,10 +38,10 @@
 "classname" "target_speaker"
 "origin" "160 592 120"
 "spawnflags" "1"
-"noise" "sound/ambient/water_drip_fast.wav"
+"noise" "sound/ambient/water_drip_fast"
 }
 {
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 "origin" "-776 120 64"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -90,7 +90,7 @@
 "classname" "target_speaker"
 "wait" "20"
 "random" "10"
-"noise" "sound/ambient/slowpulse1.wav"
+"noise" "sound/ambient/slowpulse1"
 }
 {
 "classname" "team_alien_overmind"
@@ -176,10 +176,10 @@
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-1152 1280 432"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 "origin" "-1232 616 688"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -188,10 +188,10 @@
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-1896 -504 320"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 "origin" "-1720 -504 320"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -201,7 +201,7 @@
 "spawnflags" "8"
 "classname" "target_speaker"
 "origin" "-288 592 56"
-"noise" "sound/eden/incubators.wav"
+"noise" "sound/eden/incubators"
 }
 {
 "target" "inc"
@@ -214,7 +214,7 @@
 "model" "*14"
 }
 {
-"noise" "sound/eden/incubators.wav"
+"noise" "sound/eden/incubators"
 "origin" "160 592 56"
 "classname" "target_speaker"
 "spawnflags" "8"
@@ -234,7 +234,7 @@
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-1312 1280 432"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
 "angle" "-1"
@@ -247,7 +247,7 @@
 "model" "*18"
 }
 {
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 "origin" "-1056 -2368 528"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -256,16 +256,16 @@
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-896 -2368 528"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-976 -2520 432"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
-"noise" "sound/eden/reactors2.wav"
+"noise" "sound/eden/reactors2"
 "origin" "-2408 144 160"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -274,22 +274,22 @@
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-2408 144 192"
-"noise" "sound/eden/reactors1.wav"
+"noise" "sound/eden/reactors1"
 }
 {
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-2408 -240 160"
-"noise" "sound/eden/reactors2.wav"
+"noise" "sound/eden/reactors2"
 }
 {
-"noise" "sound/eden/reactors1.wav"
+"noise" "sound/eden/reactors1"
 "origin" "-2408 -240 192"
 "classname" "target_speaker"
 "spawnflags" "1"
 }
 {
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 "origin" "408 -2400 160"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -298,10 +298,10 @@
 "spawnflags" "1"
 "classname" "target_speaker"
 "origin" "-284 592 204"
-"noise" "sound/eden/lavamud.wav"
+"noise" "sound/eden/lavamud"
 }
 {
-"noise" "sound/eden/lavamud.wav"
+"noise" "sound/eden/lavamud"
 "origin" "164 592 204"
 "classname" "target_speaker"
 "spawnflags" "1"
@@ -314,7 +314,7 @@
 }
 {
 "spawnflags" "1"
-"noise" "sound/ambient/steam.wav"
+"noise" "sound/ambient/steam"
 "origin" "1632 -220 4"
 "classname" "target_speaker"
 }
