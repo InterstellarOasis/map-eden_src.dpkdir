@@ -119,23 +119,23 @@
 }
 {
 "classname" "func_door"
-"team" "3"
+"group" "3"
 "model" "*9"
 }
 {
 "classname" "func_door"
-"team" "3"
+"group" "3"
 "angle" "180"
 "model" "*10"
 }
 {
 "classname" "func_door"
-"team" "4"
+"group" "4"
 "model" "*11"
 }
 {
 "classname" "func_door"
-"team" "4"
+"group" "4"
 "angle" "180"
 "model" "*12"
 }
